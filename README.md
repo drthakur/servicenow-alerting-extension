@@ -1,4 +1,4 @@
-# AppDynamics ServiceNow - Monitoring Extension
+# AppDynamics ServiceNow - Alerting Extension
 
 
 ##Use Case
