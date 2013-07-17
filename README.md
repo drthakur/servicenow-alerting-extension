@@ -2,9 +2,7 @@
 
 
 ##Use Case
-ServiceNow ([http://www.servicenow.com](www.servicenow.com)) is a software-as-a-service (SaaS) provider of IT service management (ITSM) software.
-AppDynamics integrates directly with ServiceNow to create tickets in response to alerts. With the ServiceNow integration you can leverage 
-your existing ticketing infrastructure to notify your operations team to resolve performance degradation issues.
+ServiceNow ([http://www.servicenow.com](www.servicenow.com)) is a software-as-a-service (SaaS) provider of IT service management (ITSM) software. AppDynamics integrates directly with ServiceNow to create tickets in response to alerts. With the ServiceNow integration you can leverage your existing ticketing infrastructure to notify your operations team to resolve performance degradation issues.
 
 ##Prerequisite
 Before you begin integrating your ServiceNow client with AppDynamics, the JSON plugin for ServiceNow must be activated. 
@@ -252,11 +250,15 @@ The following shows the specifics of the ticket description:
 
   
 
+
 ##Contributing
 
-Always feel free to fork and contribute any changes directly via GitHub.
+Always feel free to fork and contribute any changes directly via [GitHub](https://github.com/Appdynamics/servicenow-alerting-extension).
 
+##Community
+
+Find out more in the [AppSphere](http://appsphere.appdynamics.com/t5/Extensions/ServiceNow-Alerting-Extension/idi-p/751) community.
 
 ##Support
 
-For any support questions, please contact ace@appdynamics.com.
+For any questions or feature request, please contact [AppDynamics Center of Excellence](mailto://ace-request@appdynamics.com).
