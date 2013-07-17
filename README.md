@@ -1,9 +1,5 @@
-# AppDynamics ServiceNow Monitoring Extension
+# AppDynamics ServiceNow - Monitoring Extension
 
-- [Use Case](servicenow-readme.md#use-case)
-- [Installation](servicenow-readme.md#installation)
-- [Prerequisite](servicenow-readme.md#prerequisite)
-- [Contributing](servicenow-readme.md#contributing)
 
 ##Use Case
 ServiceNow ([http://www.servicenow.com](www.servicenow.com)) is a software-as-a-service (SaaS) provider of IT service management (ITSM) software.
@@ -246,11 +242,11 @@ Before you begin integrating your ServiceNow client with AppDynamics, the JSON p
 
 	The following is an overview shot of ServiceNow:
 
-![](images/Overview Ticket.png)
+![](http://appsphere.appdynamics.com/t5/image/serverpage/image-id/79iACF72F41D128CE0A/image-size/original?v=mpbl-1&px=-1)
 
 The following shows the specifics of the ticket description:
 
-![](images/New Ticket.png)
+![](http://appsphere.appdynamics.com/t5/image/serverpage/image-id/81i308D08807E0BDDD9/image-size/original?v=mpbl-1&px=-1)
 
 **Note**: Notice that the "assigned to" field has "Beth Anglin" current in place here. This is simply an example name and if properly inserted into the params.sh file it will display whichever file is needed
 
