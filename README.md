@@ -38,7 +38,7 @@ Modify the parameters in the ``<Controller Home>/custom/actions/createServiceNow
 
 ###3. Modify the createServiceNowTicket.sh file using the following table to correspond with the parameters in the params.sh file:
 
-	<table>
+<table>
 	<tr>
 	<td><strong>AppDynamics Parameters</strong></td>
 	<td><strong>ServiceNow Parameters</td>
@@ -236,7 +236,7 @@ Modify the parameters in the ``<Controller Home>/custom/actions/createServiceNow
 	<td>This is a value from 1 to 5 where: 1 = Critical, 2 =  High, 3 = Moderate, 4 = Low, 5 = Planning. The PRIORITY parameter will fill this out directly.</td>
 	</tr>
 	
-	</table>
+</table>
 
 2. Install Custom Actions
 
