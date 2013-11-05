@@ -22,7 +22,9 @@ Run ant from servicenow-alerting-extension directory. This will create the follo
  
 Download and unzip the ServiceNowAlertingExtension.zip file into your <Controller-Home> directory.
 
-###2. Modify the parameters in the ``<Controller Home>/custom/actions/createServiceNowTicket/params.sh`` file as follows:
+###2. Modify the parameters in params.sh
+
+Modify the parameters in the ``<Controller Home>/custom/actions/createServiceNowTicket/params.sh`` file as follows:
 
 	a. Assign the ASSIGN\_TO variable to be a person or department account that is authorized in the ServiceNow system and to which auto generated tickets can be assigned.
 
