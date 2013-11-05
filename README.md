@@ -11,8 +11,18 @@ Before you begin integrating your ServiceNow client with AppDynamics, the JSON p
 1. In System Definition > Plugins, search for "JSON Web Service".
 2. Right-click "JSON Web Service" and click "Activate/Upgrade".
 
+##Package
+
+Run ant from servicenow-alerting-extension directory. This will create the following file in the dist directory: ServiceNowAlertingExtension.zip.
+
 ##Installation
-1. Modify the paremeters in the IntegrationsSDK/CustomNotification/ticketing/createServiceNowTicket/params.sh file as follows:
+
+
+###1. Download and unzip ServiceNowAlertingExtension.zip
+ 
+Download and unzip the ServiceNowAlertingExtension.zip file into your <Controller-Home> directory.
+
+###2. Modify the parameters in the ``<Controller Home>/custom/actions/createServiceNowTicket/params.sh`` file as follows:
 
 	a. Assign the ASSIGN\_TO variable to be a person or department account that is authorized in the ServiceNow system and to which auto generated tickets can be assigned.
 
@@ -24,7 +34,7 @@ Before you begin integrating your ServiceNow client with AppDynamics, the JSON p
 
 	d. Assign the PASSWORD variable to be the password of the entered username that will issue these generated tickets.
 
-2. Modify the createServiceNowTicket.sh file using the following table to correspond with the parameters in the params.sh file:
+###3. Modify the createServiceNowTicket.sh file using the following table to correspond with the parameters in the params.sh file:
 
 	<table>
 	<tr>
@@ -230,7 +240,7 @@ Before you begin integrating your ServiceNow client with AppDynamics, the JSON p
 
 	To create a Custom Action using ServiceNow, first refer to the *Installing Custom Actions into the Controller* heading [here](http://docs.appdynamics.com/display/PRO12S/Configure+Custom+Notifications#ConfigureCustomNotifications-InstallingCustomActionsontheController) (requires AppDynamics login.)
 
-	The custom.xml file and createServiceNowTicket directory used for this custom notification are located within the IntegrationsSDK/CustomNotification/ticketing/ directory.
+	The custom.xml file and createServiceNowTicket directory used for this custom notification are located within the ``<Controller Home>/custom/actions/`` directory.
 
 	Place the createServiceNowTicket/ directory (containing params.sh and createServiceNowTicket.sh) along with thecustom.xml file into the \<controller\_install\_dir\>/custom/actions/ directory.
 
