@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash -x
 
 ###
 # Copyright 2013 AppDynamics
@@ -22,9 +22,13 @@
 
 ## Import external parameters
 . params.sh
+#ASSIGN_TO="ITIL User"
+#DOMAIN="https://demo013.service-now.com"
+#USER="admin"
+#PASS="admin"
 
 ## Create full domain
-FULL_DOMAIN=$DOMAIN"""/problem.do?JSON&sysparm_action=insert"
+FULL_DOMAIN=$DOMAIN"""/problem.do?JSONv2&sysparm_action=insert"
 
 ## POLICY VIOLATION VARIABLES
 APP_NAME="${1//\"/}"
@@ -196,7 +200,7 @@ SUMMARY=$SUMMARY"""\nIncident URL: """$DEEP_LINK_URL""$INCIDENT_ID"""\n"
 
 ## CURL request to create a new Problem in ServiceNow with the generated Violated Policy Parameters
 ## instead of demo11 insert your own domain for ServiceNow
-curl --user $USER:$PASS -XPOST $FULL_DOMAIN -d '{
+curl -H "Content-type: application/json" --user $USER:$PASS -X POST $FULL_DOMAIN -d '{
     "assigned_to" : "'"$ASSIGN_TO"'",
     "knowledge" : "false",
     "known_error" : "false",
