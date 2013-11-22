@@ -4,9 +4,6 @@
 ##Use Case
 ServiceNow ([http://www.servicenow.com](www.servicenow.com)) is a software-as-a-service (SaaS) provider of IT service management (ITSM) software. AppDynamics integrates directly with ServiceNow to create tickets in response to alerts. With the ServiceNow integration you can leverage your existing ticketing infrastructure to notify your operations team to resolve performance degradation issues.
 
-######Activate the JSON plugin in ServiceNow:  
-1. In System Definition > Plugins, search for "JSON Web Service".
-2. Right-click "JSON Web Service" and click "Activate/Upgrade".
 
 ##Package
 
