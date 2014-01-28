@@ -30,6 +30,8 @@ Modify the parameters in the ``<Controller Home>/custom/actions/createServiceNow
 
 	d. Assign the PASSWORD variable to be the password of the entered username that will issue these generated tickets.
 
+	e. Assign the SERVICENOW_VERSION variable to be the target version of ServiceNow instance you are sending alerts to. Valid values are "Calgary" and "Dublin".
+
 ###3. Modify the createServiceNowTicket.sh file using the following table to correspond with the parameters in the params.sh file:
 
 <table>

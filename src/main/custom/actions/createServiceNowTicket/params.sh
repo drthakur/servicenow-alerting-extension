@@ -1,5 +1,6 @@
 #!/bin/bash
-ASSIGN_TO="**assignee**"
-DOMAIN="https://demo09.service-now.com"
-USER="**username**"
-PASS="**password**"
+ASSIGN_TO="Beth Anglin"
+DOMAIN="https://dev119.service-now.com"
+USER="admin"
+PASS="changeme"
+SERVICENOW_VERSION="Dublin"

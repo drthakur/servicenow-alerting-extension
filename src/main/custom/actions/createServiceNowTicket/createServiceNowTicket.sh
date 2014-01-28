@@ -1,34 +1,18 @@
-#!/bin/bash -x
+#!/bin/bash
 
-###
-# Copyright 2013 AppDynamics
-# 
-# Licensed under the Apache License, Version 2.0 (the "License");
-# you may not use this file except in compliance with the License.
-# You may obtain a copy of the License at
-# 
-# http://www.apache.org/licenses/LICENSE-2.0
-# 
-# Unless required by applicable law or agreed to in writing, software
-# distributed under the License is distributed on an "AS IS" BASIS,
-# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-# See the License for the specific language governing permissions and
-# limitations under the License.
-#
-###
-
-## Before making this work you must activate JSON Web Service Plugin in ServiceNow
+## If you are using the Calgary release, before making this work you must activate JSON Web Service Plugin in ServiceNow
 ## System Definition > Plugins > Search for 'JSON' > right click on JSON Web Service and click 'Activate/Upgrade'
+## If you are using the Dublin release, no action is necessary since the JSON Web Service Plugin is activated by default.
 
 ## Import external parameters
-. params.sh
-#ASSIGN_TO="ITIL User"
-#DOMAIN="https://demo013.service-now.com"
-#USER="admin"
-#PASS="admin"
+. ./params.sh
 
 ## Create full domain
-FULL_DOMAIN=$DOMAIN"""/problem.do?JSONv2&sysparm_action=insert"
+if [ "$SERVICENOW_VERSION" = "Dublin" ]; then
+	FULL_DOMAIN=$DOMAIN"""/problem.do?JSONv2&sysparm_action=insert"
+else
+	FULL_DOMAIN=$DOMAIN"""/problem.do?JSON&sysparm_action=insert"
+fi
 
 ## POLICY VIOLATION VARIABLES
 APP_NAME="${1//\"/}"
@@ -76,9 +60,7 @@ do
 
     SUMMARY=$SUMMARY"""Evaluation Entity: """$EVALUATION_ENTITY_TYPE"""\n"
 
-    ((TCURP = $CURP))
-
-    ((TCURP = $TCURP+$NUMBER_OF_EVALUATION_ENTITIES))
+    ((TCURP = $CURP+$NUMBER_OF_EVALUATION_ENTITIES))
     EVALUATION_ENTITY_NAME="${!TCURP}"
     EVALUATION_ENTITY_NAME="${EVALUATION_ENTITY_NAME//\"/}"
     
@@ -200,14 +182,18 @@ SUMMARY=$SUMMARY"""\nIncident URL: """$DEEP_LINK_URL""$INCIDENT_ID"""\n"
 
 ## CURL request to create a new Problem in ServiceNow with the generated Violated Policy Parameters
 ## instead of demo11 insert your own domain for ServiceNow
-curl -H "Content-type: application/json" --user $USER:$PASS -X POST $FULL_DOMAIN -d '{
+CONTENT_TYPE=""
+if [ "$SERVICENOW_VERSION" = "Dublin" ]; then
+	CONTENT_TYPE=" -H """Content-type:application/json""""
+fi
+curl --user $USER:$PASS $CONTENT_TYPE -XPOST $FULL_DOMAIN -d '{
     "assigned_to" : "'"$ASSIGN_TO"'",
     "knowledge" : "false",
     "known_error" : "false",
     "priority" : "'"$PRIORITY"'",
     "impact" : "'"$SEVERITY"'",
     "short_description" : "'"$POLICY_NAME"'",
-    "description" : "'"$SUMMARY"'",
+    "description" : "'"$SUMMARY"'"
 }' | python -mjson.tool 
 
 ## Incident CURL call - currently not in use
