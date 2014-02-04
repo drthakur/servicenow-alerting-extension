@@ -248,11 +248,11 @@ Modify the parameters in the ``<Controller Home>/custom/actions/createServiceNow
 
 	The following is an overview shot of ServiceNow:
 
-![](http://appsphere.appdynamics.com/t5/image/serverpage/image-id/79iACF72F41D128CE0A/image-size/original?v=mpbl-1&px=-1)
+![](https://raw2.github.com/Appdynamics/servicenow-alerting-extension/master/snowTicket.png)
 
 The following shows the specifics of the ticket description:
 
-![](http://appsphere.appdynamics.com/t5/image/serverpage/image-id/81i308D08807E0BDDD9/image-size/original?v=mpbl-1&px=-1)
+![](https://raw2.github.com/Appdynamics/servicenow-alerting-extension/master/snowTicketDetails.png)
 
 **Note**: Notice that the "assigned to" field has "Beth Anglin" current in place here. This is simply an example name and if properly inserted into the params.sh file it will display whichever file is needed
   
