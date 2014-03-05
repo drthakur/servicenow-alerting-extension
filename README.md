@@ -32,7 +32,10 @@ Modify the parameters in the ``<Controller Home>/custom/actions/createServiceNow
 
 	e. Assign the SERVICENOW_VERSION variable to be the target version of ServiceNow instance you are sending alerts to. Valid values are "Calgary" and "Dublin".
 
-###3. Modify the createServiceNowTicket.sh file using the following table to correspond with the parameters in the params.sh file:
+###3. Upload the ServiceNow update sets
+In case you're using the Calgary release, upload the update set found in the ``<Controller Home>/custom/update_sets/AppDynamics4Calgary.xml``
+In case you're using the Dublin release, upload the update set found in the ``<Controller Home>/custom/update_sets/AppDynamics.xml``
+###4. Modify the createServiceNowTicket.sh file using the following table to correspond with the parameters in the params.sh file:
 
 <table>
 	<tr>
