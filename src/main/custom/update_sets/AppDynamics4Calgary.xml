@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<unload unload_date="2014-03-05 22:58:47">
+<unload unload_date="2014-03-06 20:46:16">
 <sys_remote_update_set action="INSERT_OR_UPDATE">
 <collisions/>
 <commit_date/>
@@ -13,11 +13,11 @@
 <state>loaded</state>
 <summary/>
 <sys_created_by>admin</sys_created_by>
-<sys_created_on>2014-03-05 22:58:47</sys_created_on>
-<sys_id>0136e1d5a053d900550cabaf6b6d0e86</sys_id>
+<sys_created_on>2014-03-06 20:46:16</sys_created_on>
+<sys_id>fd7196a1a0d3d900550cabaf6b6d0ec2</sys_id>
 <sys_mod_count>0</sys_mod_count>
 <sys_updated_by>admin</sys_updated_by>
-<sys_updated_on>2014-03-05 22:58:47</sys_updated_on>
+<sys_updated_on>2014-03-06 20:46:16</sys_updated_on>
 <target_release>5c668567404bc1003f8e0fc5040a3290</target_release>
 <update_set display_value=""/>
 <update_source display_value=""/>
@@ -26,64 +26,20 @@
 <version>1.0</version>
 </sys_remote_update_set>
 <sys_update_xml action="INSERT_OR_UPDATE">
-<action>INSERT_OR_UPDATE</action>
-<application display_value=""/>
-<category>customer</category>
-<comments/>
-<name>sys_app_application_18ae450aa022d500550cabaf6b6d0e45</name>
-<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application"><sys_app_application action="INSERT_OR_UPDATE"><active>true</active><category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category><description/><device_type>browser</device_type><hint/><name>appdynamics</name><order>100</order><roles>admin,u_appdynamics_user</roles><sys_app_file display_value="AppDynamics">6b6f810aa022d500550cabaf6b6d0ee3</sys_app_file><sys_created_by>admin</sys_created_by><sys_created_on>2014-01-29 22:27:38</sys_created_on><sys_domain>global</sys_domain><sys_id>18ae450aa022d500550cabaf6b6d0e45</sys_id><sys_mod_count>3</sys_mod_count><sys_overrides/><sys_updated_by>admin</sys_updated_by><sys_updated_on>2014-02-11 20:30:44</sys_updated_on><title>AppDynamics</title><view_name/></sys_app_application><sys_app_file action="INSERT_OR_UPDATE"><sys_app/><sys_code>!!0WU/</sys_code><sys_created_by>admin</sys_created_by><sys_created_on>2014-01-29 22:27:38</sys_created_on><sys_id>6b6f810aa022d500550cabaf6b6d0ee3</sys_id><sys_mod_count>0</sys_mod_count><sys_name>AppDynamics</sys_name><sys_parent/><sys_path>!!0WU/</sys_path><sys_policy/><sys_source_deleted>false</sys_source_deleted><sys_source_id>18ae450aa022d500550cabaf6b6d0e45</sys_source_id><sys_source_table>sys_app_application</sys_source_table><sys_type>code</sys_type><sys_update_name>sys_app_application_18ae450aa022d500550cabaf6b6d0e45</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2014-02-11 20:30:44</sys_updated_on></sys_app_file></record_update>]]></payload>
-<remote_update_set display_value="AppDynamics4Calgary">0136e1d5a053d900550cabaf6b6d0e86</remote_update_set>
-<replace_on_upgrade>false</replace_on_upgrade>
-<sys_created_by>admin</sys_created_by>
-<sys_created_on>2014-03-05 22:58:47</sys_created_on>
-<sys_id>0136e1d5a053d900550cabaf6b6d0e87</sys_id>
-<sys_mod_count>0</sys_mod_count>
-<sys_updated_by>admin</sys_updated_by>
-<sys_updated_on>2014-03-05 22:58:47</sys_updated_on>
-<table/>
-<target_name>AppDynamics</target_name>
-<type>Application Menu</type>
-<update_domain>global</update_domain>
-<update_set display_value=""/>
-<view/>
-</sys_update_xml>
-<sys_update_xml action="INSERT_OR_UPDATE">
-<action/>
-<application display_value=""/>
-<category/>
-<comments/>
-<name>sys_dictionary_sys_update_set_target_release</name>
-<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary element="target_release" table="sys_update_set"><active>true</active><array>false</array><attributes/><audit>false</audit><calculation/><choice/><choice_field/><choice_table/><column_label>Target Release</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><element>target_release</element><element_reference>false</element_reference><foreign_database/><internal_type display_value="">glide_list</internal_type><mandatory>true</mandatory><max_length>255</max_length><name>sys_update_set</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference display_value="">snc_release</reference><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_type/><sizeclass/><spell_check>false</spell_check><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>jack.nguy@snc</sys_created_by><sys_created_on>2013-08-13 13:52:22</sys_created_on><sys_id>5cd4c167404bc1003f8e0fc5040a328d</sys_id><sys_mod_count>3</sys_mod_count><sys_updated_by>jack.nguy@snc</sys_updated_by><sys_updated_on>2013-08-13 14:36:47</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary><sys_app_file action="INSERT_OR_UPDATE"><sys_app/><sys_code>!!!.F/</sys_code><sys_created_by>jack.nguy@snc</sys_created_by><sys_created_on>2013-08-13 13:52:22</sys_created_on><sys_id>36fe49a3e40301003f8ee2bba8bfec69</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Target Release</sys_name><sys_parent/><sys_path>!!!.F/</sys_path><sys_policy/><sys_source_deleted>false</sys_source_deleted><sys_source_id element="target_release" name="sys_update_set" sys_source_table="sys_dictionary">5cd4c167404bc1003f8e0fc5040a328d</sys_source_id><sys_source_table>sys_dictionary</sys_source_table><sys_type>code</sys_type><sys_update_name>sys_dictionary_sys_update_set_target_release</sys_update_name><sys_updated_by>jack.nguy@snc</sys_updated_by><sys_updated_on>2013-08-13 14:36:47</sys_updated_on></sys_app_file></record_update>]]></payload>
-<remote_update_set display_value="AppDynamics4Calgary">0136e1d5a053d900550cabaf6b6d0e86</remote_update_set>
-<replace_on_upgrade>false</replace_on_upgrade>
-<sys_created_by>admin</sys_created_by>
-<sys_created_on>2014-03-05 22:58:47</sys_created_on>
-<sys_id>0d36e1d5a053d900550cabaf6b6d0e87</sys_id>
-<sys_mod_count>0</sys_mod_count>
-<sys_updated_by>admin</sys_updated_by>
-<sys_updated_on>2014-03-05 22:58:47</sys_updated_on>
-<table>sys_update_set</table>
-<target_name>Update Set.target_release</target_name>
-<type>Dictionary</type>
-<update_domain>global</update_domain>
-<update_set display_value=""/>
-<view/>
-</sys_update_xml>
-<sys_update_xml action="INSERT_OR_UPDATE">
 <action/>
 <application display_value=""/>
 <category/>
 <comments/>
 <name>sys_dictionary_sys_update_set_version</name>
 <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><sys_dictionary element="version" table="sys_update_set"><active>true</active><array>false</array><attributes/><audit>false</audit><calculation/><choice/><choice_field/><choice_table/><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><element>version</element><element_reference>false</element_reference><foreign_database/><internal_type>string</internal_type><mandatory>true</mandatory><max_length>40</max_length><name>sys_update_set</name><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_type/><sizeclass/><spell_check>false</spell_check><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>jack.nguy@snc</sys_created_by><sys_created_on>2013-08-13 13:52:22</sys_created_on><sys_id>1cd4c167404bc1003f8e0fc5040a3293</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>jack.nguy@snc</sys_updated_by><sys_updated_on>2013-08-13 14:06:45</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary>]]></payload>
-<remote_update_set display_value="AppDynamics4Calgary">0136e1d5a053d900550cabaf6b6d0e86</remote_update_set>
+<remote_update_set display_value="AppDynamics4Calgary">fd7196a1a0d3d900550cabaf6b6d0ec2</remote_update_set>
 <replace_on_upgrade>false</replace_on_upgrade>
 <sys_created_by>admin</sys_created_by>
-<sys_created_on>2014-03-05 22:58:47</sys_created_on>
-<sys_id>4936e1d5a053d900550cabaf6b6d0e87</sys_id>
+<sys_created_on>2014-03-06 20:46:16</sys_created_on>
+<sys_id>357196a1a0d3d900550cabaf6b6d0ec4</sys_id>
 <sys_mod_count>0</sys_mod_count>
 <sys_updated_by>admin</sys_updated_by>
-<sys_updated_on>2014-03-05 22:58:47</sys_updated_on>
+<sys_updated_on>2014-03-06 20:46:16</sys_updated_on>
 <table>sys_update_set</table>
 <target_name>Update Set.version</target_name>
 <type>Dictionary</type>
@@ -98,14 +54,14 @@
 <comments/>
 <name>sys_app_bd417f0aa03a1900550cabaf6b6d0ea2</name>
 <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_app"><sys_app action="INSERT_OR_UPDATE"><active>true</active><menu display_value="AppDynamics">18ae450aa022d500550cabaf6b6d0e45</menu><name>AppDynamics</name><short_description>Application for AppDynamics integration</short_description><sys_app_file display_value="AppDynamics">71517f0aa03a1900550cabaf6b6d0eab</sys_app_file><sys_created_by>admin</sys_created_by><sys_created_on>2014-02-11 20:30:44</sys_created_on><sys_id>bd417f0aa03a1900550cabaf6b6d0ea2</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2014-02-11 20:31:05</sys_updated_on><user_role display_value="u_appdynamics_user" name="u_appdynamics_user">71517f0aa03a1900550cabaf6b6d0ea8</user_role></sys_app><sys_app_file action="INSERT_OR_UPDATE"><sys_app display_value="AppDynamics">bd417f0aa03a1900550cabaf6b6d0ea2</sys_app><sys_code>!!0Y0/</sys_code><sys_created_by>admin</sys_created_by><sys_created_on>2014-02-11 20:30:44</sys_created_on><sys_id>71517f0aa03a1900550cabaf6b6d0eab</sys_id><sys_mod_count>0</sys_mod_count><sys_name>AppDynamics</sys_name><sys_parent/><sys_path>!!0Y0/</sys_path><sys_policy/><sys_source_deleted>false</sys_source_deleted><sys_source_id>bd417f0aa03a1900550cabaf6b6d0ea2</sys_source_id><sys_source_table>sys_app</sys_source_table><sys_type>code</sys_type><sys_update_name>sys_app_bd417f0aa03a1900550cabaf6b6d0ea2</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2014-02-11 20:31:05</sys_updated_on></sys_app_file></record_update>]]></payload>
-<remote_update_set display_value="AppDynamics4Calgary">0136e1d5a053d900550cabaf6b6d0e86</remote_update_set>
+<remote_update_set display_value="AppDynamics4Calgary">fd7196a1a0d3d900550cabaf6b6d0ec2</remote_update_set>
 <replace_on_upgrade>false</replace_on_upgrade>
 <sys_created_by>admin</sys_created_by>
-<sys_created_on>2014-03-05 22:58:47</sys_created_on>
-<sys_id>4d36e1d5a053d900550cabaf6b6d0e86</sys_id>
+<sys_created_on>2014-03-06 20:46:16</sys_created_on>
+<sys_id>397196a1a0d3d900550cabaf6b6d0ec3</sys_id>
 <sys_mod_count>0</sys_mod_count>
 <sys_updated_by>admin</sys_updated_by>
-<sys_updated_on>2014-03-05 22:58:47</sys_updated_on>
+<sys_updated_on>2014-03-06 20:46:16</sys_updated_on>
 <table/>
 <target_name>AppDynamics</target_name>
 <type>Application</type>
@@ -119,15 +75,15 @@
 <category>customer</category>
 <comments/>
 <name>sys_app_module_85afc50aa022d500550cabaf6b6d0ea5</name>
-<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="AppDynamics">18ae450aa022d500550cabaf6b6d0e45</application><content_page/><filter/><hint/><homepage/><image/><link_type>DIRECT</link_type><map_page/><name>sys_app_application</name><order/><query>http://help.appdynamics.com</query><report/><roles/><survey/><survey_overwrite>true</survey_overwrite><sys_created_by>admin</sys_created_by><sys_created_on>2014-01-29 22:36:29</sys_created_on><sys_domain>global</sys_domain><sys_id>85afc50aa022d500550cabaf6b6d0ea5</sys_id><sys_mod_count>1</sys_mod_count><sys_overrides/><sys_updated_by>admin</sys_updated_by><sys_updated_on>2014-01-29 22:36:49</sys_updated_on><timeline_page/><title>Contact AppDynamics Support</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module><sys_app_file action="INSERT_OR_UPDATE"><sys_app/><sys_code>!!0WV/</sys_code><sys_created_by>admin</sys_created_by><sys_created_on>2014-01-29 22:36:29</sys_created_on><sys_id>5571990aa022d500550cabaf6b6d0e2d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Contact AppDynamics Support</sys_name><sys_parent/><sys_path>!!0WV/</sys_path><sys_policy/><sys_source_deleted>false</sys_source_deleted><sys_source_id>85afc50aa022d500550cabaf6b6d0ea5</sys_source_id><sys_source_table>sys_app_module</sys_source_table><sys_type>code</sys_type><sys_update_name>sys_app_module_85afc50aa022d500550cabaf6b6d0ea5</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2014-01-29 22:36:49</sys_updated_on></sys_app_file></record_update>]]></payload>
-<remote_update_set display_value="AppDynamics4Calgary">0136e1d5a053d900550cabaf6b6d0e86</remote_update_set>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="AppDynamics">18ae450aa022d500550cabaf6b6d0e45</application><content_page/><filter/><hint/><homepage/><image/><link_type>DIRECT</link_type><map_page/><name>sys_app_application</name><order/><query>http://help.appdynamics.com</query><report/><roles>admin,u_appdynamics_user</roles><survey/><survey_overwrite>true</survey_overwrite><sys_created_by>admin</sys_created_by><sys_created_on>2014-01-29 22:36:29</sys_created_on><sys_domain>global</sys_domain><sys_id>85afc50aa022d500550cabaf6b6d0ea5</sys_id><sys_mod_count>3</sys_mod_count><sys_overrides/><sys_updated_by>admin</sys_updated_by><sys_updated_on>2014-03-06 20:45:16</sys_updated_on><timeline_page/><title>Contact AppDynamics Support</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module><sys_app_file action="INSERT_OR_UPDATE"><sys_app/><sys_code>!!0WV/</sys_code><sys_created_by>admin</sys_created_by><sys_created_on>2014-01-29 22:36:29</sys_created_on><sys_id>5571990aa022d500550cabaf6b6d0e2d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Contact AppDynamics Support</sys_name><sys_parent/><sys_path>!!0WV/</sys_path><sys_policy/><sys_source_deleted>false</sys_source_deleted><sys_source_id>85afc50aa022d500550cabaf6b6d0ea5</sys_source_id><sys_source_table>sys_app_module</sys_source_table><sys_type>code</sys_type><sys_update_name>sys_app_module_85afc50aa022d500550cabaf6b6d0ea5</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2014-03-06 20:45:16</sys_updated_on></sys_app_file></record_update>]]></payload>
+<remote_update_set display_value="AppDynamics4Calgary">fd7196a1a0d3d900550cabaf6b6d0ec2</remote_update_set>
 <replace_on_upgrade>false</replace_on_upgrade>
 <sys_created_by>admin</sys_created_by>
-<sys_created_on>2014-03-05 22:58:47</sys_created_on>
-<sys_id>8536e1d5a053d900550cabaf6b6d0e87</sys_id>
+<sys_created_on>2014-03-06 20:46:16</sys_created_on>
+<sys_id>717196a1a0d3d900550cabaf6b6d0ec4</sys_id>
 <sys_mod_count>0</sys_mod_count>
 <sys_updated_by>admin</sys_updated_by>
-<sys_updated_on>2014-03-05 22:58:47</sys_updated_on>
+<sys_updated_on>2014-03-06 20:46:16</sys_updated_on>
 <table>sys_app_application</table>
 <target_name>Contact AppDynamics Support</target_name>
 <type>Module</type>
@@ -142,17 +98,39 @@
 <comments/>
 <name>dictionary_u_imp_ppd_problem_09e91050ed4c401980ff35d9580b2979</name>
 <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><database><element extends="sys_import_set_row" label="imp_ppd_problem" name="u_imp_ppd_problem" type="collection"/></database><sys_app_file action="INSERT_OR_UPDATE"><sys_app display_value="AppDynamics">bd417f0aa03a1900550cabaf6b6d0ea2</sys_app><sys_code>!!0Y2/</sys_code><sys_created_by>admin</sys_created_by><sys_created_on>2014-02-24 23:02:26</sys_created_on><sys_id>72b0d35ea0039900550cabaf6b6d0edb</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_imp_ppd_problem</sys_name><sys_parent display_value="Imp Ppd Problem">7eb0d35ea0039900550cabaf6b6d0ed3</sys_parent><sys_path>!!0Y1/!!0Y2/</sys_path><sys_policy/><sys_source_deleted>false</sys_source_deleted><sys_source_id element="NULL" name="u_imp_ppd_problem" sys_source_table="sys_dictionary">32b0d35ea0039900550cabaf6b6d0eda</sys_source_id><sys_source_table>sys_dictionary</sys_source_table><sys_type>code</sys_type><sys_update_name>dictionary_u_imp_ppd_problem_09e91050ed4c401980ff35d9580b2979</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2014-03-05 22:57:51</sys_updated_on></sys_app_file></record_update>]]></payload>
-<remote_update_set display_value="AppDynamics4Calgary">0136e1d5a053d900550cabaf6b6d0e86</remote_update_set>
+<remote_update_set display_value="AppDynamics4Calgary">fd7196a1a0d3d900550cabaf6b6d0ec2</remote_update_set>
 <replace_on_upgrade>false</replace_on_upgrade>
 <sys_created_by>admin</sys_created_by>
-<sys_created_on>2014-03-05 22:58:47</sys_created_on>
-<sys_id>8936e1d5a053d900550cabaf6b6d0e86</sys_id>
+<sys_created_on>2014-03-06 20:46:16</sys_created_on>
+<sys_id>757196a1a0d3d900550cabaf6b6d0ec3</sys_id>
 <sys_mod_count>0</sys_mod_count>
 <sys_updated_by>admin</sys_updated_by>
-<sys_updated_on>2014-03-05 22:58:47</sys_updated_on>
+<sys_updated_on>2014-03-06 20:46:16</sys_updated_on>
 <table>u_imp_ppd_problem</table>
 <target_name>imp_ppd_problem</target_name>
 <type>Database field(s)</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action/>
+<application display_value=""/>
+<category/>
+<comments/>
+<name>sys_dictionary_sys_update_set_vendor_key</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><sys_dictionary element="vendor_key" table="sys_update_set"><active>true</active><array>false</array><attributes/><audit>false</audit><calculation/><choice/><choice_field/><choice_table/><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><element>vendor_key</element><element_reference>false</element_reference><foreign_database/><internal_type>string</internal_type><mandatory>true</mandatory><max_length>40</max_length><name>sys_update_set</name><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_type/><sizeclass/><spell_check>false</spell_check><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>jack.nguy@snc</sys_created_by><sys_created_on>2013-08-13 13:52:22</sys_created_on><sys_id>8cd4c167404bc1003f8e0fc5040a3287</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>jack.nguy@snc</sys_updated_by><sys_updated_on>2013-08-13 14:06:47</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary>]]></payload>
+<remote_update_set display_value="AppDynamics4Calgary">fd7196a1a0d3d900550cabaf6b6d0ec2</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2014-03-06 20:46:16</sys_created_on>
+<sys_id>b17196a1a0d3d900550cabaf6b6d0ec3</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2014-03-06 20:46:16</sys_updated_on>
+<table>sys_update_set</table>
+<target_name>Update Set.vendor_key</target_name>
+<type>Dictionary</type>
 <update_domain>global</update_domain>
 <update_set display_value=""/>
 <view/>
@@ -164,14 +142,14 @@
 <comments/>
 <name>sys_user_role_71517f0aa03a1900550cabaf6b6d0ea8</name>
 <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role"><sys_user_role action="INSERT_OR_UPDATE"><can_delegate>true</can_delegate><description/><elevated_privilege>false</elevated_privilege><grantable>true</grantable><includes_roles/><name>u_appdynamics_user</name><sys_app_file/><sys_created_by>admin</sys_created_by><sys_created_on>2014-02-11 20:30:44</sys_created_on><sys_id>71517f0aa03a1900550cabaf6b6d0ea8</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2014-02-11 20:30:44</sys_updated_on></sys_user_role><sys_app_file action="INSERT_OR_UPDATE"><sys_app display_value="">bd417f0aa03a1900550cabaf6b6d0ea2</sys_app><sys_code>!!0Y./</sys_code><sys_created_by>admin</sys_created_by><sys_created_on>2014-02-11 20:30:44</sys_created_on><sys_id>31517f0aa03a1900550cabaf6b6d0ea9</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_appdynamics_user</sys_name><sys_parent/><sys_path>!!0Y./</sys_path><sys_policy/><sys_source_deleted>false</sys_source_deleted><sys_source_id name="u_appdynamics_user" sys_source_table="sys_user_role">71517f0aa03a1900550cabaf6b6d0ea8</sys_source_id><sys_source_table>sys_user_role</sys_source_table><sys_type/><sys_update_name>sys_user_role_71517f0aa03a1900550cabaf6b6d0ea8</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2014-02-11 20:30:44</sys_updated_on></sys_app_file></record_update>]]></payload>
-<remote_update_set display_value="AppDynamics4Calgary">0136e1d5a053d900550cabaf6b6d0e86</remote_update_set>
+<remote_update_set display_value="AppDynamics4Calgary">fd7196a1a0d3d900550cabaf6b6d0ec2</remote_update_set>
 <replace_on_upgrade>false</replace_on_upgrade>
 <sys_created_by>admin</sys_created_by>
-<sys_created_on>2014-03-05 22:58:47</sys_created_on>
-<sys_id>c136e1d5a053d900550cabaf6b6d0e87</sys_id>
+<sys_created_on>2014-03-06 20:46:16</sys_created_on>
+<sys_id>bd7196a1a0d3d900550cabaf6b6d0ec3</sys_id>
 <sys_mod_count>0</sys_mod_count>
 <sys_updated_by>admin</sys_updated_by>
-<sys_updated_on>2014-03-05 22:58:47</sys_updated_on>
+<sys_updated_on>2014-03-06 20:46:16</sys_updated_on>
 <table/>
 <target_name>u_appdynamics_user</target_name>
 <type>Role</type>
@@ -184,19 +162,41 @@
 <application display_value=""/>
 <category/>
 <comments/>
-<name>sys_dictionary_sys_update_set_vendor_key</name>
-<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><sys_dictionary element="vendor_key" table="sys_update_set"><active>true</active><array>false</array><attributes/><audit>false</audit><calculation/><choice/><choice_field/><choice_table/><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><element>vendor_key</element><element_reference>false</element_reference><foreign_database/><internal_type>string</internal_type><mandatory>true</mandatory><max_length>40</max_length><name>sys_update_set</name><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_type/><sizeclass/><spell_check>false</spell_check><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>jack.nguy@snc</sys_created_by><sys_created_on>2013-08-13 13:52:22</sys_created_on><sys_id>8cd4c167404bc1003f8e0fc5040a3287</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>jack.nguy@snc</sys_updated_by><sys_updated_on>2013-08-13 14:06:47</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary>]]></payload>
-<remote_update_set display_value="AppDynamics4Calgary">0136e1d5a053d900550cabaf6b6d0e86</remote_update_set>
+<name>sys_dictionary_sys_update_set_target_release</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary element="target_release" table="sys_update_set"><active>true</active><array>false</array><attributes/><audit>false</audit><calculation/><choice/><choice_field/><choice_table/><column_label>Target Release</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><element>target_release</element><element_reference>false</element_reference><foreign_database/><internal_type display_value="">glide_list</internal_type><mandatory>true</mandatory><max_length>255</max_length><name>sys_update_set</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference display_value="">snc_release</reference><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_type/><sizeclass/><spell_check>false</spell_check><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>jack.nguy@snc</sys_created_by><sys_created_on>2013-08-13 13:52:22</sys_created_on><sys_id>5cd4c167404bc1003f8e0fc5040a328d</sys_id><sys_mod_count>3</sys_mod_count><sys_updated_by>jack.nguy@snc</sys_updated_by><sys_updated_on>2013-08-13 14:36:47</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary><sys_app_file action="INSERT_OR_UPDATE"><sys_app/><sys_code>!!!.F/</sys_code><sys_created_by>jack.nguy@snc</sys_created_by><sys_created_on>2013-08-13 13:52:22</sys_created_on><sys_id>36fe49a3e40301003f8ee2bba8bfec69</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Target Release</sys_name><sys_parent/><sys_path>!!!.F/</sys_path><sys_policy/><sys_source_deleted>false</sys_source_deleted><sys_source_id element="target_release" name="sys_update_set" sys_source_table="sys_dictionary">5cd4c167404bc1003f8e0fc5040a328d</sys_source_id><sys_source_table>sys_dictionary</sys_source_table><sys_type>code</sys_type><sys_update_name>sys_dictionary_sys_update_set_target_release</sys_update_name><sys_updated_by>jack.nguy@snc</sys_updated_by><sys_updated_on>2013-08-13 14:36:47</sys_updated_on></sys_app_file></record_update>]]></payload>
+<remote_update_set display_value="AppDynamics4Calgary">fd7196a1a0d3d900550cabaf6b6d0ec2</remote_update_set>
 <replace_on_upgrade>false</replace_on_upgrade>
 <sys_created_by>admin</sys_created_by>
-<sys_created_on>2014-03-05 22:58:47</sys_created_on>
-<sys_id>c536e1d5a053d900550cabaf6b6d0e86</sys_id>
+<sys_created_on>2014-03-06 20:46:16</sys_created_on>
+<sys_id>f57196a1a0d3d900550cabaf6b6d0ec4</sys_id>
 <sys_mod_count>0</sys_mod_count>
 <sys_updated_by>admin</sys_updated_by>
-<sys_updated_on>2014-03-05 22:58:47</sys_updated_on>
+<sys_updated_on>2014-03-06 20:46:16</sys_updated_on>
 <table>sys_update_set</table>
-<target_name>Update Set.vendor_key</target_name>
+<target_name>Update Set.target_release</target_name>
 <type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value=""/>
+<category>customer</category>
+<comments/>
+<name>sys_app_application_18ae450aa022d500550cabaf6b6d0e45</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application"><sys_app_application action="INSERT_OR_UPDATE"><active>true</active><category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category><description/><device_type>browser</device_type><hint/><name>appdynamics</name><order>100</order><roles>admin,u_appdynamics_user</roles><sys_app_file display_value="AppDynamics">6b6f810aa022d500550cabaf6b6d0ee3</sys_app_file><sys_created_by>admin</sys_created_by><sys_created_on>2014-01-29 22:27:38</sys_created_on><sys_domain>global</sys_domain><sys_id>18ae450aa022d500550cabaf6b6d0e45</sys_id><sys_mod_count>3</sys_mod_count><sys_overrides/><sys_updated_by>admin</sys_updated_by><sys_updated_on>2014-02-11 20:30:44</sys_updated_on><title>AppDynamics</title><view_name/></sys_app_application><sys_app_file action="INSERT_OR_UPDATE"><sys_app/><sys_code>!!0WU/</sys_code><sys_created_by>admin</sys_created_by><sys_created_on>2014-01-29 22:27:38</sys_created_on><sys_id>6b6f810aa022d500550cabaf6b6d0ee3</sys_id><sys_mod_count>0</sys_mod_count><sys_name>AppDynamics</sys_name><sys_parent/><sys_path>!!0WU/</sys_path><sys_policy/><sys_source_deleted>false</sys_source_deleted><sys_source_id>18ae450aa022d500550cabaf6b6d0e45</sys_source_id><sys_source_table>sys_app_application</sys_source_table><sys_type>code</sys_type><sys_update_name>sys_app_application_18ae450aa022d500550cabaf6b6d0e45</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2014-02-11 20:30:44</sys_updated_on></sys_app_file></record_update>]]></payload>
+<remote_update_set display_value="AppDynamics4Calgary">fd7196a1a0d3d900550cabaf6b6d0ec2</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2014-03-06 20:46:16</sys_created_on>
+<sys_id>f97196a1a0d3d900550cabaf6b6d0ec3</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2014-03-06 20:46:16</sys_updated_on>
+<table/>
+<target_name>AppDynamics</target_name>
+<type>Application Menu</type>
 <update_domain>global</update_domain>
 <update_set display_value=""/>
 <view/>
