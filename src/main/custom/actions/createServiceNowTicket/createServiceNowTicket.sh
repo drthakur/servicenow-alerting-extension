@@ -9,9 +9,9 @@
 
 ## Create full domain
 if [ "$SERVICENOW_VERSION" = "Dublin" ]; then
-	FULL_DOMAIN=$DOMAIN"""/imp_ppd_problem.do?JSONv2&sysparm_action=insert"
+	FULL_DOMAIN=$DOMAIN"""/problem.do?JSONv2&sysparm_action=insert"
 else
-	FULL_DOMAIN=$DOMAIN"""/imp_ppd_problem.do?JSON&sysparm_action=insert"
+	FULL_DOMAIN=$DOMAIN"""/problem.do?JSON&sysparm_action=insert"
 fi
 
 ## POLICY VIOLATION VARIABLES
