@@ -9,6 +9,8 @@ ServiceNow ([http://www.servicenow.com](www.servicenow.com)) is a software-as-a-
 
 Run ant from servicenow-alerting-extension directory. This will create the following file in the dist directory: ServiceNowAlertingExtension.zip.
 
+##Pre-requisites
+If you're using the ServiceNow Calgary release, then you must upgrade to Update 6, which contains the JSON V2 web services plugin. 
 ##Installation
 
 

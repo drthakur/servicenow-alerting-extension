@@ -8,11 +8,7 @@
 . ./params.sh
 
 ## Create full domain
-if [ "$SERVICENOW_VERSION" = "Dublin" ]; then
-	FULL_DOMAIN=$DOMAIN"""/problem.do?JSONv2&sysparm_action=insert"
-else
-	FULL_DOMAIN=$DOMAIN"""/problem.do?JSON&sysparm_action=insert"
-fi
+FULL_DOMAIN=$DOMAIN"""/problem.do?JSONv2&sysparm_action=insert"
 
 ## POLICY VIOLATION VARIABLES
 APP_NAME="${1//\"/}"
@@ -182,10 +178,7 @@ SUMMARY=$SUMMARY"""\nIncident URL: """$DEEP_LINK_URL""$INCIDENT_ID"""\n"
 
 ## CURL request to create a new Problem in ServiceNow with the generated Violated Policy Parameters
 ## instead of demo11 insert your own domain for ServiceNow
-CONTENT_TYPE=""
-if [ "$SERVICENOW_VERSION" = "Dublin" ]; then
-	CONTENT_TYPE=" -H """Content-type:application/json""""
-fi
+CONTENT_TYPE=" -H """Content-type:application/json""""
 curl --user $USER:$PASS $CONTENT_TYPE -XPOST $FULL_DOMAIN -d '{
     "assigned_to" : "'"$ASSIGN_TO"'",
     "knowledge" : "false",
