@@ -1,14 +1,12 @@
 #!/bin/bash
 
-## If you are using the Calgary release, before making this work you must activate JSON Web Service Plugin in ServiceNow
-## System Definition > Plugins > Search for 'JSON' > right click on JSON Web Service and click 'Activate/Upgrade'
-## If you are using the Dublin release, no action is necessary since the JSON Web Service Plugin is activated by default.
+## If you are using the Calgary release, you need to upgrade to Update 6 which has the JSON V2 Web Services plugin.
 
 ## Import external parameters
 . ./params.sh
 
 ## Create full domain
-FULL_DOMAIN=$DOMAIN"""/problem.do?JSONv2&sysparm_action=insert"
+FULL_DOMAIN=$DOMAIN"""/u_imp_ppd_problem.do?JSONv2&sysparm_action=insert"
 
 ## POLICY VIOLATION VARIABLES
 APP_NAME="${1//\"/}"
